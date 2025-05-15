@@ -4,15 +4,19 @@
   width: 20%;
   height: 100%;
   background-color: #f0f0f0;
-  border-radius: 10px;
+  border-radius: 10px 0 0 10px;
   padding: 10px;
   border-right: 1px solid #000;
+  overflow-y: auto;
 }
 
 .sidebar-header {
   display: flex;
   flex-direction: column;
   width: 100%;
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #000;
 }
 
 .sidebar-body {

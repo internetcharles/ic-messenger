@@ -1,5 +1,6 @@
 import { users } from "../../Data/placeholderUsers";
 import "../../Styles/Sidebar.scss";
+import UserCard from "./UserCard";
 
 const Sidebar: React.FC = () => {
   return (
@@ -10,7 +11,7 @@ const Sidebar: React.FC = () => {
       <div className="sidebar-body">
         <div className="sidebar-body-title">
           {users.map((user) => {
-            return <div key={user.id}>{user.name}</div>;
+            return <UserCard key={user.id} user={user} />;
           })}
         </div>
       </div>

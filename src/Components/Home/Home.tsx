@@ -1,5 +1,6 @@
 import "../../Styles/Home.scss";
 import Sidebar from "../Sidebar/Sidebar";
+import ChatWindow from "../ChatWindow/ChatWindow";
 
 const Home: React.FC = () => {
   return (
@@ -9,7 +10,10 @@ const Home: React.FC = () => {
           <div className="home-inner-window-title">Home</div>
         </div>
         <div className="home-inner-window-title-line"></div>
-        <Sidebar />
+        <div className="home-inner-window-content-container">
+          <Sidebar />
+          <ChatWindow />
+        </div>
       </div>
     </div>
   );

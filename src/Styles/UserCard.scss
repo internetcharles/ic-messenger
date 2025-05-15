@@ -1,0 +1,20 @@
+.user-card {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.user-card-image {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #000;
+  margin-right: 10px;
+}
+
+.user-card-name {
+  font-size: 16px;
+  font-weight: 600;
+}

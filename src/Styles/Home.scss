@@ -5,7 +5,7 @@
   align-items: center;
   height: 100vh;
   width: 100vw;
-  background: linear-gradient(135deg, #1a1b4b 0%, #2d1b69, #331a4b 100%);
+  background: linear-gradient(135deg, #9395ff 0%, #2d1b69, #ca91ff 100%);
 }
 
 .home-inner-window {
@@ -32,4 +32,13 @@
   width: 100%;
   height: 1px;
   background: linear-gradient(135deg, #1a1b4b 0%, #e2e2e2 100%);
+}
+
+.home-inner-window-content-container {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: calc(100% - 3rem);
+  overflow: hidden;
+  border-radius: 10px;
 }
